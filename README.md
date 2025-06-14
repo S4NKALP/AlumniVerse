@@ -9,15 +9,15 @@ A web-based platform designed to connect, engage, and empower alumni. This proje
 
 ## 📄 Software Requirements Specification (SRS)
 
-The formal SRS document is currently being prepared and will be uploaded soon. It will include:
+Check out our detailed [Software Requirements Specification](docs/SRS.md) that includes:
 
-- Functional and non-functional requirements
-- System architecture
-- Feature breakdown
-- Technology stack
-- Development roadmap
-
-> 📌 _The SRS will be available in the `/docs` directory or linked here once published._
+- Complete tech stack (React/TypeScript, Django, PostgreSQL, Redis, etc.)
+- Detailed core features (User & Access, Alumni Directory, Events, Jobs, Messaging, etc.)
+- Technical architecture and implementation details
+- Database schema and API endpoints
+- Development requirements and setup instructions
+- User roles and permissions
+- Development phases and deployment guidelines
 
 ## 🌟 Planned Features
 
