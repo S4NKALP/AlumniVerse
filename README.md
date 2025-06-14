@@ -9,7 +9,7 @@ The repository has been initialized. Core architecture, models, and features are
 
 ## 📄 Software Requirements Specification (SRS)
 
-The formal SRS document is currently being prepared and will be uploaded soon. It will cover:
+The formal SRS document is currently being prepared and will be uploaded soon. It will include:
 
 - Functional and non-functional requirements  
 - System architecture  
@@ -17,7 +17,7 @@ The formal SRS document is currently being prepared and will be uploaded soon. I
 - Technology stack  
 - Development roadmap  
 
-> 📌 _The SRS will be available in the `/docs` directory or linked here soon._
+> 📌 _The SRS will be available in the `/docs` directory or linked here once published._
 
 ## 🌟 Planned Features
 
@@ -73,39 +73,11 @@ See the full license in the [LICENSE](./LICENSE) file.
 
 ---
 
-> Stay tuned for project updates, milestones, and documentation releases! 🚀
+> Stay tuned for project updates, SRS release, and development milestones. 🚀
 
 ---
 
-### ✨ Motivation
-
-> _"A man without aims is like a monkey."_ 🐒  
-> — A thinker who compiles dreams into code
-
-> _"Dreams rot in silence. Scream them out and chase hard."_ 🚀  
-> _"If you wait for the right time, you'll be late forever."_ ⏳  
-> _"Even broken compasses can find North if they keep spinning."_ 🧭  
-> _"You’re not stuck — you're paused. Hit resume."_ 🎮  
-> _"Typing one line a day is still better than dreaming the whole system."_ 👨‍💻  
-> _"Plans fail. Persistence doesn't."_ 🔁  
-> _"No one remembers version 0.0.1, but without it, there's no 1.0."_ 🛠  
-> _"Be the bugfix to your own laziness."_ 🐛➡️✅  
-> _"Even a monkey can climb — but only a man can build the tree."_ 🌳
-
----
-
-### 💫 Special Note for New Contributors
-
-> This project welcomes everyone — especially those just getting started.
-
-> _"You don’t need to be perfect — you just need to be **brave**."_ 🌱  
-> _"Code with your heart, not just your hands."_ 💻❤️  
-> _"Even the tiniest commit shapes the future."_ 🧩  
-> _"You’re not here to prove you’re enough — you already are."_ 🌼
-
-You're not expected to know everything — you're expected to **learn**, grow, and leave your mark.  
-Every great developer started exactly where you are: curious, unsure, but ready.
-
-We’re building this together. And your contributions? They matter more than you know.
-
-— From your teammate who's cheering you on ✨
+<sub>
+_"A man without aims is like a monkey."_ 🐒  
+— Sankalp, building one line of code at a time
+</sub>
