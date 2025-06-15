@@ -31,7 +31,7 @@ JAZZMIN_SETTINGS = {
     # Links to put along the top menu
     "topmenu_links": [
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
-        {"name": "Support", "url": "https://github.com/yourusername/alumniverse", "new_window": True},
+        {"name": "Support", "url": "https://github.com/S4NKALP/AlumniVerse", "new_window": True},
         {"model": "accounts.User"},
         {"app": "events"},
         {"app": "news"},
