@@ -5,6 +5,7 @@ django-cors-headers==4.7.0
 django-filter==25.1
 django-jazzmin==3.0.1
 djangorestframework==3.16.0
+djangorestframework-simplejwt==5.3.1
 drf-spectacular==0.28.0
 inflection==0.5.1
 jsonschema==4.24.0

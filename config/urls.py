@@ -15,8 +15,47 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+    TokenVerifyView,
+)
+from drf_spectacular.views import (
+    SpectacularAPIView,
+    SpectacularRedocView,
+    SpectacularSwaggerView,
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    
+    # API Authentication
+    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
+    
+    # API Documentation
+    path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+    path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('api/schema/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
+    
+    # API Apps
+    path('api/accounts/', include('apps.accounts.urls')),
+    path('api/events/', include('apps.events.urls')),
+    path('api/news/', include('apps.news.urls')),
+    path('api/jobs/', include('apps.jobs.urls')),
+    path('api/forum/', include('apps.forum.urls')),
+    path('api/mentorship/', include('apps.mentorship.urls')),
+    path('api/achievements/', include('apps.achievements.urls')),
+    path('api/groups/', include('apps.groups.urls')),
+    path('api/messaging/', include('apps.messaging.urls')),
+    path('api/notifications/', include('apps.notifications.urls')),
+    path('api/dashboard/', include('apps.dashboard.urls')),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
