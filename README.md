@@ -49,7 +49,38 @@ Check out our detailed [Software Requirements Specification](docs/SRS.md) that i
 
 ## 📁 Folder Structure
 
-_Will be added once the initial codebase is ready._
+```
+alumnivarse/
+├── apps/                    # Django applications
+│   ├── accounts/           # User authentication & profiles
+│   ├── achievements/       # Alumni achievements & recognition
+│   ├── dashboard/          # User dashboard & analytics
+│   ├── events/            # Event management
+│   ├── forum/             # Discussion forums
+│   ├── jobs/              # Job board & opportunities
+│   ├── messaging/         # Private messaging system
+│   ├── mentorship/        # Mentorship program
+│   ├── news/              # News & announcements
+│   └── notifications/     # User notifications
+│
+├── config/                 # Project configuration
+│   ├── settings/          # Settings modules
+│   │   ├── base.py       # Base settings
+│   │   ├── development.py # Development settings
+│   │   └── production.py  # Production settings
+│   ├── urls.py           # Project URL configuration
+│   ├── wsgi.py           # WSGI configuration
+│   └── asgi.py           # ASGI configuration
+│
+├── docs/                   # Documentation
+│   └── SRS.md            # Software Requirements Specification
+│
+├── requirements.txt        # Python dependencies
+├── pyproject.toml         # Project metadata and dependencies
+├── manage.py              # Django management script
+├── .env.example           # Example environment variables
+└── .gitignore            # Git ignore rules
+```
 
 ## 📅 Roadmap
 
