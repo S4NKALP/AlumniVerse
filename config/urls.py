@@ -50,6 +50,7 @@ urlpatterns = [
     ),
     # API Apps
     path("api/accounts/", include("apps.accounts.urls")),
+    path("api/directory/", include("apps.directory.urls")),
 ]
 
 
